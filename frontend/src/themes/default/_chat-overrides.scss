@@ -1,0 +1,24 @@
+@import "../../../node_modules/@chatscope/chat-ui-kit-styles/themes/default/variables";
+
+// $main-container-border: 0;
+// $color-text: rgb(0, 255, 195);
+// $conversation-color: rgb(241, 0, 40);
+
+
+$color-primary: #008cff ;
+$color-primary-light: #ffffff ;
+$color-primary-dark: #000000 ;
+$color-primary-dark: #00365f ;
+
+$color-secondary: #00ff2f ;
+$color-secondary-light: #ff0000 ;
+$color-secondary-dark: #e900ed ;
+
+// Material text colors
+// http://marcodiiga.github.io/rgba-to-rgb-conversion
+// Hex values are calculated based on white background 
+// If you change background color rgb color will change, that is why its better to use rgba with opacity!
+$color-text: rgba(255, 0, 0, 0.87) ; // #212121
+$color-text-medium: rgba(255, 0, 0, 0.6) ; // #666666
+$color-text-disabled: rgba(255, 0, 0, 0.38) ; // #9e9e9e
+$color-text-inverted: invert($color-text);

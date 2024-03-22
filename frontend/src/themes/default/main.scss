@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "./chat-overrides";
+@import "../../../node_modules/@chatscope/chat-ui-kit-styles/themes/default/main";
+
+// @charset "utf-8";
+
+@font-face {
+  font-family: 'Clan';
+  src: url('fonts/ClanOffc-News.woff2') format('woff2');
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clan';
+  src: url('fonts/ClanOffc-Bold.woff2') format('woff2');
+       font-weight: bold;
+       font-style: bold;
+}
+
+// @import "./chat-overrides";
+// @import "../../../node_modules/@chatscope/chat-ui-kit-styles/themes/default/main";
